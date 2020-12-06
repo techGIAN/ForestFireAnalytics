@@ -24,8 +24,8 @@ This is a sample run of the forest fire propagation simulation (sequence begins 
 After simulating our forest fire propagation algorithm <b>INCINERATE</b>, we propose fire prevention strategies on our forest network graph. The first one is through an edge-removal technique that detects communities, called the Girvan-Newman (GN) approach. This will serve as a benchmark for another edge-removal algorithm we propose, <b>FIGHTER</b>. Our algorithm, similar to GN uses edge-betweenness scores to prune out edges. The distinction of our proposed algorithm is that we intend to consider (local) neighborhood-based edge-removal.
 
 <p align="center">
-<img src="./img/table-res.png" alt="tableres" style="width=50%; margin:auto;">
- A table of results of a sample of five simulations for the various methods of fire prevention strategies. The algorithm highlighted in yellow gives the best performing prevention scheme for each simulation.
+<img src="./img/table-res.png" alt="tableres" style="width=30%; margin:auto;"> <br>
+A table of results of a sample of five simulations for the various methods of fire prevention strategies. The algorithm highlighted in yellow gives the best performing prevention scheme for each simulation.
 </p>
 
 We plot Simulation 1 of the above as seen below. It can be seen that our algorithm turns out to be superior than the GN method, and that applying our method can reduce forest fire damage by as much as 85%
