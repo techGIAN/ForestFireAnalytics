@@ -1,7 +1,7 @@
 # Forest Fire Analytics
 
 <p align="center">
-<img src="./img/fire-pic.jpg" alt="firepic" style="width=50%">
+<img src="./img/fire-pic.jpg" alt="firepic" style="width=30%">
 <b>Img Src</b>: https://www.dailysabah.com 
 </p>
 
@@ -14,7 +14,7 @@ This paper discusses in-detail the models, algorithms and results of our experim
 ## Simulation
 
 <p align="center">
-<img src="./img/15-sim.png" alt="firepic" style="width=50%; margin:auto;">
+<img src="./img/15-sim.png" alt="firepic" style="width=50%">
 </p>
 
 This is a sample run of the forest fire propagation simulation (sequence begins in the upper left corner going across, then down). The figure in the upper left corner panel is the initial state of the system where none of the forests are damaged (all non-burnt forests are green and all those fire zones whose states will never change are black). In the figure beside it shows a randomly selected node in the forest (colored yellow) where it serves as the source of the fire. In the sequences that follow, we see that fire propagates accordingly to our algorithms (where orange nodes represent forests that are burning and brown nodes represent forests that are burnt out). In the final few panels of the simulation, we have seen that the number of burning forests has remained the same and therefore serves as the stopping criterion of the fire propagating algorithm.
@@ -24,12 +24,12 @@ This is a sample run of the forest fire propagation simulation (sequence begins 
 After simulating our forest fire propagation algorithm <b>INCINERATE</b>, we propose fire prevention strategies on our forest network graph. The first one is through an edge-removal technique that detects communities, called the Girvan-Newman (GN) approach. This will serve as a benchmark for another edge-removal algorithm we propose, <b>FIGHTER</b>. Our algorithm, similar to GN uses edge-betweenness scores to prune out edges. The distinction of our proposed algorithm is that we intend to consider (local) neighborhood-based edge-removal.
 
 <p align="center">
-<img src="./img/table-res.png" alt="tableres" style="width=30%; margin:auto;"> <br>
+<img src="./img/table-res.png" alt="tableres" style="width=30%;"> <br>
 A table of results of a sample of five simulations for the various methods of fire prevention strategies. The algorithm highlighted in yellow gives the best performing prevention scheme for each simulation.
 </p>
 
 We plot Simulation 1 of the above as seen below. It can be seen that our algorithm turns out to be superior than the GN method, and that applying our method can reduce forest fire damage by as much as 85%
 
 <p align="center">
-<img src="./img/link-removal.png" alt="linkremoval" style="width=50%; margin:auto;">
+<img src="./img/link-removal.png" alt="linkremoval" style="width=50%; ">
 </p>
