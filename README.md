@@ -1,9 +1,9 @@
 # Forest Fire Analytics
 
-<p align="center"
+<p align="center">
 <img src="./img/fire-pic.jpg" alt="firepic" style="width=50%">
 <b>Img Src</b>: https://www.dailysabah.com 
-</p>## 
+</p>
 
 Forest fires have been common environmental issues that have impacted millions of lives and natural resources. Thus, an in-depth study of the behavior of wildfires is critical in devising preventive strategies to control its rapid spread. However, despite a significant amount of work that has been done in the literature, developing an effective fire spread model is still a challenge. <br>
   
